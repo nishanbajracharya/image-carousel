@@ -1,0 +1,29 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel .carousel-image-wrapper > img {
+  float: left;
+}
+
+.carousel .carousel-arrow-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel-arrow-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel-indicator-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
